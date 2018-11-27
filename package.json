@@ -1,0 +1,15 @@
+{
+    "name": "phanout",
+    "version": "1.0.0",
+    "description": "A tool for showing Ophan data in-context",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "web-ext": "^2.9.2"
+    },
+    "author": "Paul Roberts <paul.roberts@theguardian.com>",
+    "license": "GNU",
+    "scripts": {
+        "local": "web-ext run"
+    }
+}
