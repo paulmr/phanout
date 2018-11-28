@@ -14,6 +14,10 @@
                         "*://*.theguardian.com/*"],
             "js": ["target/scala-2.12/phanout-fastopt.js"]
         }
-    ]
+    ],
 
+    "permissions": [
+        "*://dashboard.ophan.co.uk/*",
+        "*://dashboard.local.dev-gutools.co.uk/*"
+    ]
 }
