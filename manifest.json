@@ -12,7 +12,7 @@
         {
             "matches": ["*://*.guardian.co.uk/*",
                         "*://*.theguardian.com/*"],
-            "js": ["phanout.js"]
+            "js": ["target/scala-2.12/phanout-fastopt.js"]
         }
     ]
 
