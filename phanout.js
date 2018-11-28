@@ -1,5 +1,13 @@
 (function () {
 
+    function log(msg) {
+        console.log("[PMR] " + msg);
+    }
+
+    function getOphanInfoData(url) {
+
+    }
+
     // if(window["jQuery"]) {
     //     console.log("Loading JQuery");
     //     browser.contentScripts.register(
@@ -31,9 +39,11 @@
 
     var links = getGuardianLinks();
 
-    links.forEach((link) => {
-        console.log("[PMR 1703] ", link.href);
-    });
+    if(links.length > 0) {
+        getOphanInfoData(links);
+    } else {
+        log("no links found");
+    }
 
     // links.forEach(l => console.log("[PMR 1619] ", l));
 

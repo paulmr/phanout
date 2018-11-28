@@ -2,8 +2,7 @@
     "name": "phanout",
     "version": "1.0.0",
     "description": "A tool for showing Ophan data in-context",
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
         "web-ext": "^2.9.2"
     },
