@@ -19,14 +19,14 @@
 
     /* first, find all of the links in the page */
 
-    var query = ('a[href^="https://www.theguardian.com"],' +
-                 'a[href^="https://www.guardian.co.uk"] ,' +
-                 'a[href^="http://www.theguardian.com"] ,' +
-                 'a[href^="http://www.guardian.co.uk"]   ');
+    var query =
+        'a[href^="https://www.theguardian.com"],' +
+        'a[href^="https://www.guardian.co.uk"] ,' +
+        'a[href^="http://www.theguardian.com"] ,' +
+        'a[href^="http://www.guardian.co.uk"]   ' ;
 
     function getGuardianLinks() {
-        return document
-            .querySelectorAll(query);
+        return document.querySelectorAll(query);
     }
 
     var links = getGuardianLinks();
